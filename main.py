@@ -7,7 +7,7 @@ from dataset import prepare_train_data, prepare_eval_data, prepare_test_data
 
 FLAGS = tf.app.flags.FLAGS
 
-tf.flags.DEFINE_string('phase', 'train',
+tf.flags.DEFINE_string('phase', 'test',
                        'The phase can be train, eval or test')
 
 tf.flags.DEFINE_boolean('load', False,
