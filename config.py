@@ -46,7 +46,7 @@ class Config(object):
         self.summary_dir = './summary/'
 
         # about the vocabulary
-        self.vocabulary_file = './vocabulary.csv'
+        self.vocabulary_file = './abc/vocabulary.csv'
         self.vocabulary_size = 5000
 
         # about the training
